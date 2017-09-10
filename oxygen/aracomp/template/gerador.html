@@ -80,18 +80,18 @@
                   <input class="form-control" placeholder="Título do Post" name="title" type="text" id="title">
               </div>
               <div class="form-group">
-                  <input class="form-control" placeholder="Data e Hora" name="datetime" type="datetime-local">
+                  <input class="form-control" placeholder="Data e Hora" name="datetime" type="datetime-local" id="dateTime">
               </div>
               <div class="form-group">
-                  <textarea   class="form-control text-justify" placeholder="Digite o texto" name="textArea" type="textarea" style="color:black"></textarea><font color="red">
+                  <textarea   class="form-control text-justify" placeholder="Digite o texto" name="textArea" type="textarea" style="color:black"></textarea><font color="red" id="textArea">
               </div>
               <div class="form-group">
-                  <input class="form-control" placeholder="Imagem" name="datetime" type="file">
+                  <input class="form-control" placeholder="Imagem" name="datetime" type="file" id="img">
               </div>
               <div class="form-group">
-                  <input class="form-control" placeholder="Título da imagem" name="imageTitle" type="text">
+                  <input class="form-control" placeholder="Título da imagem" name="imageTitle" type="text" id="imgTitle">
               </div>
-              <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+              <input class="btn btn-lg btn-success btn-block" type="submit" value="Login" onclick="obterElementos()">
             </fieldset>
               </form>
           </div>
